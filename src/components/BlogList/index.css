@@ -1,0 +1,19 @@
+.blogs-list-container{
+    display:flex;
+    flex-direction:column;
+    padding:10px;
+
+}
+@media screen and (max-width:576px){
+    .blogs-list-container{
+        padding:5px;
+    }
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    background-color:transparent;
+  }
